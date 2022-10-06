@@ -11,12 +11,15 @@ const About = () => {
                 <div></div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi, I am Tung Yu Chen, Nice to meet you. Please take a look around.</p>
+                    <div className='text-4xl font-bold'>
+                        <p>Hi, I am Tung Yu Chen, Nice to meet you.<br /> Please take a look around.</p>
                     </div>
                     <div>
-                        <p>
-                            sdjflsdkfjiowjeopwjropwejropwjeoprjweoprjopwejropwejropwejoprjweoprjweoprjopwejropwepr
+                        <p className='font-bold text-gray-200'>
+                            I was a semiconductor engineer for more than 3 years, however, I decided to do adventure after few years employed.<br />
+                            After carefully planning, I chose to come to Canada and study computer science.<br />
+                             Now I finished my program and trying to 
+                            start a new career in Canada. I would say I am a self-motivatiion, task-oriented and stable person.
                         </p>
                     </div>                
             </div>

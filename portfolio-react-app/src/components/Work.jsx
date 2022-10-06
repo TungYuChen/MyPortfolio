@@ -2,6 +2,7 @@ import React from 'react'
 import Morph from '../assets/Morph.jfif'
 import C200 from '../assets/200OK.jpg'
 import Gamersup from '../assets/gamersup.jpg'
+import { FaGithub } from 'react-icons/fa'
 
 const Work = () => {
     return (
@@ -9,7 +10,8 @@ const Work = () => {
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Work</p>
-                    <p className='py-6'>// Check out some of my recent works</p>
+                    <p className='py-6 font-bold text-gray-200'>Here is some projects, and there are more in my &nbsp;
+                     <a href="https://github.com/TungYuChen" className='text-2xl'>GitHub</a></p>
                 </div>
                 {/* Container */}
                 <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -18,11 +20,11 @@ const Work = () => {
 
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100 '>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Java Spring Boot with React Application
-                            </span>
+                            <p className='text-xl font-bold text-white tracking-wider px-2'>
+                                Built by Java, Spring Boot, Spring Security, ReactJS, NodeJs, MySQL, JWT
+                            </p>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://github.com/TungYuChen/GamersUp" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -33,12 +35,15 @@ const Work = () => {
 
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100 '>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Java Spring Boot with React Application
-                            </span>
-                            <div>
-                                <a href="/">
+                            <p className='text-xl font-bold text-white tracking-wider px-2'>
+                                Build in Java, Spring MVC, JSP and deploy on Heroku
+                            </p>
+                            <div className='pt-8 text-center'>
+                                <a href="https://github.com/TungYuChen/ProjectMorph" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                                <a href="https://projectmorph.herokuapp.com/" target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                             </div>
                         </div>
@@ -48,11 +53,11 @@ const Work = () => {
 
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100 '>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Java Spring Boot with React Application
-                            </span>
-                            <div>
-                                <a href="/">
+                            <p className='text-xl font-bold text-white tracking-wider px-2'>
+                                Build in C#, WPF, EntityFramework, .NET framework
+                            </p>
+                            <div className='pt-8 text-center'>
+                                <a href="https://github.com/TungYuChen/FP200OK01" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
